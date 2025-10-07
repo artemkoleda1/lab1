@@ -1,3 +1,4 @@
 from sys import getsizeof
-a = int(input())
-print(getsizeof(a))
+a = 3**9090001
+b= float(getsizeof(a))
+print((b/1024/1024))
